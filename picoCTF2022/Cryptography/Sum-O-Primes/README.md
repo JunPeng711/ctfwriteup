@@ -1,7 +1,7 @@
 # Challenge Name: Sum-O-Primes
 ## Question
 
-<img src= "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/Question.png" alt="img">
+![quest](/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/Question.png)
 
 In this challenge, we are given two files and 1 hints. 
 
@@ -9,7 +9,7 @@ In this challenge, we are given two files and 1 hints.
 
 Files: gen.py
 
-<img src = "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/gen.py.png" alt="img">
+![gen.py](/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/gen.py.png)
 
 Files: output.txt
 
@@ -58,7 +58,7 @@ print(long_to_bytes(m))
 ## Flag
 That's the flag !
 
-<img src= "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/sol.py.png" alt="img">
+![sol](/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/sol.py.png)
 
 
 `picoCTF{f5eab190}`
