@@ -1,6 +1,6 @@
 # Challenge Name: Operation Orchid
 ## Question
-![[CTF2022/picoCTF2022/Forensic/Operation Orchid/Question.png]]
+![quest](Question.png)
 
 In this challenge, we're provided a disk image compressed in extension .gz. We need to find out the flag within the disk image file. 
 
@@ -10,14 +10,16 @@ To solve this challenge, unzip the file with the command `gzip -d disk.flag.img.
 
 In this case, the flag path is stored same as the previous challenge, which is `/3/root/flag.txt`. However, select the flag.txt file won't give you the flag. 
 
-![[Pasted image 20220319042731.png]]
+![img1](img1.png)
+
 
 Then, I check for flag.txt.enc and got the salted value. This file is the encoded file of the flag.txt. 
-![[flagencrypt.png]]
+
+![img2](flagencrypt.png)
 
 Check for the .ash_history file as well. Based on the file name, I assume this is the history step of how the author trying encrypt the flag.txt. I saw there is using the openssl with the salt and a password to encrypt the flag.txt, `unbreakablepassword1234567`. 
 
-![[history.png]]
+![img3](history.png)
 
 After that, I went to research on how to decrypt the file using openssl command with the password. Basically, openssl is a program and library that support many types of cryptographic operations. 
 
@@ -30,7 +32,7 @@ $ cat flag.txt
 
 ```
 
-![[command.png]]
+![img4](command.png)
 
 
 ## Flag
