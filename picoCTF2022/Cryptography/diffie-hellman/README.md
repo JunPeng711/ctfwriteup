@@ -2,7 +2,7 @@
 
 ## Question
 
-![[CTF2022/picoCTF2022/Cryptography/diffie-hellman/Question.png]]
+![quest](Question.png)
 
 In this challenge, we're provided a message and two hints to decrypt it. 
 `H98A9W_H6UM8W_6A_9_D6C_5ZCI9C8I_JBACIFAI`
