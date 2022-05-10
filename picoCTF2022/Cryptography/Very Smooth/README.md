@@ -1,6 +1,6 @@
 # Challenge Name: Very Smooth
 ## Question
-![[CTF2022/picoCTF2022/Cryptography/Very Smooth/question.png]]
+![quest](question.png)
 
 In this question, we're provided two files and 1 hints. 
 
@@ -117,7 +117,7 @@ To find out more about Pollard's algorithm, please refer to this link:
 https://montoguequiz.com/electrical/rsa-public-key-pollard-algorithm/
 
 There are the step of Pollard's p - 1 factorization algorithm I got from the link provided above. 
-![[step Pollard.png]]
+![step](step Pollard.png)
 
 
 After understand the logic and the steps of Pollard's p - 1 factorization algorithm, we can write a python script to factories the n value with the Pollard's p - 1 factorization algorithm. 
@@ -169,6 +169,6 @@ I've also found out the previous similar CTF writeup from Angmar's Website. May 
 ## Flag
 That's the flag !
 
-![[CTF2022/picoCTF2022/Cryptography/Very Smooth/Flag.png]]
+![flag](Flag.png)
 
 `picoCTF{95d15b05}`
