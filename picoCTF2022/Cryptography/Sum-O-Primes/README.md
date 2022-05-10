@@ -1,6 +1,7 @@
 # Challenge Name: Sum-O-Primes
 ## Question
-![[CTF2022/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/Question.png]]
+
+<img src= "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/Question.png" alt="img">
 
 In this challenge, we are given two files and 1 hints. 
 
@@ -55,6 +56,7 @@ print(long_to_bytes(m))
 ## Flag
 That's the flag !
 
-![[CTF2022/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/sol.py.png]]
+<img src= "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/sol.py.png" alt="img">
+
 
 `picoCTF{f5eab190}`
