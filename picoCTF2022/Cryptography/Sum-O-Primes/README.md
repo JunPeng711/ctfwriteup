@@ -6,8 +6,10 @@
 In this challenge, we are given two files and 1 hints. 
 
 `Hint: I love squares :)`
+
 Files: gen.py
-![[gen.py.png]]
+
+<img src = "/picoCTF2022/Cryptography/zimgsrc/Sum-O-Pr/gen.py.png" alt="img">
 
 Files: output.txt
 
