@@ -1,12 +1,13 @@
 # Challenge Name: Sum-O-Primes
 ## Question
-![[CTF2022/picoCTF2022/Cryptography/Sum-O-Primes/Question.png]]
+![quest](Question.png)
 
 In this challenge, we are given two files and 1 hints. 
 
 `Hint: I love squares :)`
 Files: gen.py
-![[gen.py.png]]
+
+![gen.py](gen.py.png)
 
 Files: output.txt
 
@@ -55,6 +56,6 @@ print(long_to_bytes(m))
 ## Flag
 That's the flag !
 
-![[sol.py.png]]
+![sol.py](sol.py.png)
 
 `picoCTF{f5eab190}`
