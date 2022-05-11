@@ -15,7 +15,7 @@ Use binwalk command to extract it and you will get all the extracted file within
 ![img2](sol.png)
 
 Open the file explorer, and redirect to the folder that has been extracted. It is very obvious that there is a only PNG image file contain something inside. 
-![img3](extracted files.png)
+![img3](extracted_files.png)
 
 
 Quickly double click to open the 1D8556 image file and you will get the flag. 
