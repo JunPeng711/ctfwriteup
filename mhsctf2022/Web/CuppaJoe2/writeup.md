@@ -14,10 +14,11 @@ dirb https://mhsctf-erlenmeyer-biscuits.0xmmalik.repl.co/
 ```
 
 Then you will get the result.
+
 ![img2](dirbBrute.png)
 
 Open the link found by dirb bruteforce, which https://mhsctf-erlenmeyer-biscuits.0xmmalik.repl.co/flag 
-It only showed this msg. 
+It only showed this msg.
 ![img3](nice_try.png)
 
 
