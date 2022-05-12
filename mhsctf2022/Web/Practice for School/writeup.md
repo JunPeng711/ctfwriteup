@@ -46,7 +46,8 @@ Press F12 in the website, then paste and run the code in the console tab. Then y
 ![img3](Code.png)
 
 
-Select the correct answer and you get the flag. 
+Select the correct answer and you get the flag.
+
 ![img4](Flag.png)
 
 
