@@ -47,10 +47,12 @@ print(m)
 
 Run the command to get the number. 
 `$ python3 rsa.py`
+
 ![img2](RSAScript.png)
 
 
-After that, we are given a hint which require to decrypt again after the decoding step. Decrypt the number from decimal to ascii and you will get the flag. 
+After that, we are given a hint which require to decrypt again after the decoding step. Decrypt the number from decimal to ascii and you will get the flag.
+
 ![img3](Hint.png)
 
 ![img4](flag.png)

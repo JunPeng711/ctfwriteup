@@ -7,6 +7,7 @@ This challenge provided a png image. We are given a hint in the description whic
 
 ## Solution
 Used the google engine to find out the information by uploading the image provided. The google engine has suggested this picture is related to `cotswold wildlife park and gardens`. I've tried to submit the flag as `dvCTF{cotswold_wildlife_park_and_gardens}` but its not the correct flag. 
+
 ![img1](Google.png)
 
 
