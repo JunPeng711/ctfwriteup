@@ -12,6 +12,7 @@ According to the PNG signature, the first 8 bytes are as follow
 `89  50  4e  47  0d  0a  1a  0a`
 
 Thus, I open the corrupt PNG image in hex editor and found out that the PNG signature which is the first 8 bytes of the file is different from the PNG signature rules as mentioned above.
+
 ![img1](hex.png)
 
 Thus, I tried to replace the first 8 bytes according to the rules but the files were still corrupted. I think that it is not only the PNG header that is corrupted. For example, IDHR, CRC, IDAT chunk / CRC will also cause the PNG file to be corrupted.
