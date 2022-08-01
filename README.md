@@ -1,3 +1,5 @@
+# CTF Team: [trojanduck](https://github.com/trojanduck)
+
 # ctfwriteup
 
 ## 2022
